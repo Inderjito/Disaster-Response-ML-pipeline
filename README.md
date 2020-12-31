@@ -18,7 +18,12 @@ The data contains 26,248 labeled messages that were sent during past disasters a
 'other_weather', 'direct_report'
 
 ***FILE STRUCTURE***
+
+
+
+
 <img width="783" alt="Screen Shot 2020-12-31 at 12 52 37 PM" src="https://user-images.githubusercontent.com/71035452/103420794-2e928100-4b67-11eb-90c9-8d6d9fafa55a.png">
+
 
 #### Project Components
 1.  **ETL Pipeline**
