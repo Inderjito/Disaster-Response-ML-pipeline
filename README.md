@@ -17,6 +17,22 @@ The data contains 26,248 labeled messages that were sent during past disasters a
 'floods', 'storm', 'fire', 'earthquake', 'cold', 
 'other_weather', 'direct_report'
 
+***FILE STRUCTURE***
+app
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
+data
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+|- InsertDatabaseName.db # database to save clean data to
+models
+|- train_classifier.py
+|- classifier.pkl # saved model
+README.md
+
 #### Project Components
 1.  **ETL Pipeline**
 Loads the messages and categories datasets
@@ -38,14 +54,18 @@ Run command to run web app: python run.py
 .**Instructions to run**
 Run the following commands in the project's root directory to set up your database and model.
 
--To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
--To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-Run the following command in the app's directory to run your web app. python run.py
+ To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-Go to http://0.0.0.0:3001/ or you can change url in code.
+2. Run the following command in the app's directory to run your web app.
+    `python run.py`
 
-#### Interface Homepage 
-![image](https://drive.google.com/file/d/1guOtJhtYjrmoDHn7L_C8g6Jalb4xadn-/view?usp=sharing)
+3. Go to http://0.0.0.0:3001/-
+
+
+
 
 
 
