@@ -68,5 +68,7 @@ Run the following commands in the project's root directory to set up your databa
 <img width="1337" alt="Screen Shot 2020-12-31 at 12 39 42 PM" src="https://user-images.githubusercontent.com/71035452/103420571-e9218400-4b65-11eb-9061-42435fbd6103.png">
 
 
+<img width="1307" alt="Screen Shot 2020-12-31 at 12 38 46 PM" src="https://user-images.githubusercontent.com/71035452/103420703-add38500-4b66-11eb-997f-8f1a73f0fc18.png">
+
 
 
