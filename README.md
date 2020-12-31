@@ -65,7 +65,7 @@ Run the following commands in the project's root directory to set up your databa
 3. Go to http://0.0.0.0:3001/-
 
 
-
+<img width="1337" alt="Screen Shot 2020-12-31 at 12 39 42 PM" src="https://user-images.githubusercontent.com/71035452/103420571-e9218400-4b65-11eb-9061-42435fbd6103.png">
 
 
 
