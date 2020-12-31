@@ -18,20 +18,7 @@ The data contains 26,248 labeled messages that were sent during past disasters a
 'other_weather', 'direct_report'
 
 ***FILE STRUCTURE***
-app
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
-|- run.py # Flask file that runs app
-data
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv # data to process
-|- process_data.py
-|- InsertDatabaseName.db # database to save clean data to
-models
-|- train_classifier.py
-|- classifier.pkl # saved model
-README.md
+<img width="783" alt="Screen Shot 2020-12-31 at 12 52 37 PM" src="https://user-images.githubusercontent.com/71035452/103420794-2e928100-4b67-11eb-90c9-8d6d9fafa55a.png">
 
 #### Project Components
 1.  **ETL Pipeline**
